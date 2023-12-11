@@ -13,7 +13,7 @@ const Hero = () => {
                     Full Stack Web Developer specializing in MERN Stack technologies. Dedicated to crafting responsive, visually appealing, and impactful web applications.
                 </p>
                 <div className='flex gap-4'>
-                    <Link className="btn btn-secondary">Resume <IoMdCloudDownload className="text-2xl" /></Link>
+                    <Link className="btn btn-secondary btn-outline">Resume <IoMdCloudDownload className="text-2xl" /></Link>
                     <Link className="btn btn-secondary">Contact <PiPaperPlaneRightFill className="text-2xl" /></Link>
                 </div>
             </div>
