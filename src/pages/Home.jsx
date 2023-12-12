@@ -1,6 +1,8 @@
 import About from "../components/shared/About";
 import Contact from "../components/shared/Contact";
+import Education from "../components/shared/Education";
 import Hero from "../components/shared/Hero";
+import Projects from "../components/shared/Projects";
 import Skills from "../components/shared/Skills";
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
             <Skills></Skills>
             <About></About>
             <Contact></Contact>
+            <Education></Education>
+            <Projects></Projects>
         </div>
     );
 };

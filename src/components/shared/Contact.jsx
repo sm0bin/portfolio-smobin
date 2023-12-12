@@ -5,7 +5,7 @@ import Points from "./Points";
 
 const Contact = () => {
     return (
-        <section>
+        <section id="contact">
             <SectionTitle title='I WANT TO HEAR FROM YOU' subTitle="Contact Me"></SectionTitle>
 
             <div className="hero">

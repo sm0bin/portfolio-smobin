@@ -1,18 +1,29 @@
 import { IoMdCloudDownload } from "react-icons/io";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     const navLinksWithPath = [
-        { title: "Home", path: "/" },
-        { title: "About", path: "/about" },
-        { title: "Contact", path: "/contact" },
+        { title: "Home", path: "hero" },
+        { title: "About", path: "about" },
+        { title: "Contact", path: "contact" },
+        { title: "Education", path: "education" },
+        { title: "Projects", path: "projects" }
 
     ]
 
     const navLinks = navLinksWithPath.map((link) => {
         return (
             <li key={link.path}>
-                <NavLink to={link.path}>{link.title}</NavLink>
+                <Link
+                    activeClass="active"
+                    // to="test1"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    // onSetActive={handleSetActive}
+                    to={link.path}>{link.title}</Link>
             </li>
         )
     })
@@ -36,7 +47,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink className="btn btn-secondary">Resume <IoMdCloudDownload className="text-2xl" /></NavLink>
+                <a href="/Shehjad-Mobin-Resume.pdf" className="btn btn-secondary" download>Resume <IoMdCloudDownload className="text-2xl" /></a>
             </div>
         </div>
     );

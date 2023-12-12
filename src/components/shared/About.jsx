@@ -1,15 +1,15 @@
 import image from '../../assets/img/mobin-long.jpg';
 import { IoMdCloudDownload } from 'react-icons/io';
 import { PiPaperPlaneRightFill } from 'react-icons/pi';
-import { Link } from 'react-router-dom';
 import Points from './Points';
 import { HiBadgeCheck } from "react-icons/hi";
 import { PiCertificateFill } from "react-icons/pi";
 import { FiCheckCircle } from "react-icons/fi";
+import { Link } from 'react-scroll';
 
 const About = () => {
     return (
-        <section>
+        <section id='about'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <img className="rounded-lg w-full h-[740px] object-cover object-top" src={image} alt="Profile Image" />
 
@@ -39,8 +39,8 @@ const About = () => {
 
 
                     <div className='flex gap-4'>
-                        <Link className="btn btn-secondary btn-outline">Resume <IoMdCloudDownload className="text-2xl" /></Link>
-                        <Link className="btn btn-secondary">Contact <PiPaperPlaneRightFill className="text-2xl" /></Link>
+                        <a href='/Shehjad-Mobin-Resume.pdf' className="btn btn-secondary btn-outline" download>Resume <IoMdCloudDownload className="text-2xl" /></a>
+                        <Link to='contact' className="btn btn-secondary">Contact <PiPaperPlaneRightFill className="text-2xl" /></Link>
                     </div>
 
                 </div>
