@@ -29,7 +29,7 @@ const Projects = () => {
         <section id="projects">
             <SectionTitle title='My Projects' subTitle="Projects"></SectionTitle>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {
                     projectList.map((project, index) => (
                         <div key={index} className="card border-2 border-secondary">

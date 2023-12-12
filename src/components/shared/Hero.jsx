@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
-        <div className='flex items-center justify-between' id='hero'>
+        <div className='flex flex-col md:flex-row gap-12 items-center justify-between' id='hero'>
             <div className='max-w-xl'>
                 <h1 className='font-head text-6xl leading-tight'>Hello,<br /> I am <span className='text-secondary font-head'>Shehjad Mobin</span></h1>
                 <h2 className='font-semibold text-3xl'>Full Stack Web Developer</h2>
@@ -17,7 +17,7 @@ const Hero = () => {
                     <Link to='contact' className="btn btn-secondary">Contact <PiPaperPlaneRightFill className="text-2xl" /></Link>
                 </div>
             </div>
-            <img className='max-w-lg' src={heroImg} alt="Developer Pc" />
+            <img className='md:max-w-xs lg:max-w-lg' src={heroImg} alt="Developer Pc" />
         </div>
     );
 };

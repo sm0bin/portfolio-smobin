@@ -9,7 +9,7 @@ const Contact = () => {
             <SectionTitle title='I WANT TO HEAR FROM YOU' subTitle="Contact Me"></SectionTitle>
 
             <div className="hero">
-                <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
 
 
                     <div className="card col-span-2 border border-secondary bg-base-100">
