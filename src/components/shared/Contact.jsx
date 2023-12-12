@@ -9,12 +9,8 @@ const Contact = () => {
             <SectionTitle title='I WANT TO HEAR FROM YOU' subTitle="Contact Me"></SectionTitle>
 
             <div className="hero">
-                <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div className="flex flex-col gap-12">
-                        <Points icon={IoMdMail} field='Email' value='shehjad0mobin@gmail.com' />
-                        <Points icon={IoLogoWhatsapp} field='Whatsapp' value='+88 017 3298 5103' />
-                        <Points icon={PiMapPinFill} field='Email' value='Rajshahi, Bangladesh' />
-                    </div>
+                <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
+
 
                     <div className="card col-span-2 border border-secondary bg-base-100">
                         <form className="card-body">
@@ -49,6 +45,13 @@ const Contact = () => {
                                 <button className="btn btn-secondary btn-lg">Send <PiPaperPlaneTiltFill /></button>
                             </div>
                         </form>
+                    </div>
+
+
+                    <div className="flex flex-col gap-12">
+                        <Points icon={IoMdMail} field='Email' value='shehjad0mobin@gmail.com' />
+                        <Points icon={IoLogoWhatsapp} field='Whatsapp' value='+88 017 3298 5103' />
+                        <Points icon={PiMapPinFill} field='Email' value='Rajshahi, Bangladesh' />
                     </div>
                 </div>
             </div>
