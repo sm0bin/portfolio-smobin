@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div className="my-32 space-y-32">
             <Hero></Hero>
-            <About></About>
             <Skills></Skills>
+            <About></About>
             <Contact></Contact>
         </div>
     );
