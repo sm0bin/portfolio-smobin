@@ -1,5 +1,5 @@
 import About from "../components/shared/About";
-import Contact from "../components/shared/Contact";
+import Contact from "../../src/components/shared/Contact";
 import Education from "../components/shared/Education";
 import Hero from "../components/shared/Hero";
 import Projects from "../components/shared/Projects";

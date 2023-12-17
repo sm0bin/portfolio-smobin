@@ -38,7 +38,9 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-head text-secondary">Shehjad Mobin</a>
+                <a className="btn btn-ghost text-3xl font-head text-secondary">
+                    {/* <img src="/sm-frame-alt.svg" alt="Shehjad Mobin Icon" /> */}
+                    Shehjad Mobin</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
