@@ -17,7 +17,6 @@ const Navbar = () => {
             <li key={link.path}>
                 <Link
                     activeClass="active"
-                    // to="test1"
                     spy={true}
                     smooth={true}
                     offset={-100}
