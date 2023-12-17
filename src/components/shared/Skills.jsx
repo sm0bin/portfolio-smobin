@@ -6,7 +6,7 @@ import { TbBrandVscode } from "react-icons/tb";
 
 const Skills = () => {
     return (
-        <Marquee id='skills' className="bg-secondary py-8 md:py-12 text-4xl md:text-7xl  text-base-100" pauseOnHover={true} delay={0} loop={0}>
+        <Marquee id='skills' className="bg-secondary py-8 md:py-12 text-4xl md:text-7xl text-[#0F3775]" pauseOnHover={true} delay={0} loop={0}>
             {/* <div className="bg-secondary py-8 text-4xl flex"> */}
             <FaReact className="mr-20" />
             <FaNodeJs className="mr-20" />

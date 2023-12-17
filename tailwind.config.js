@@ -9,11 +9,23 @@ export default {
       fontFamily: {
         'head': ["'Philosopher', sans-serif"],
       },
+      colors: {
+        'brand': '#0F3775',
+      },
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
     themes: ["dracula"],
+    // themes: [
+    //   {
+    //     dracula: {
+    //       ...require("daisyui/src/theming/themes")["dracula"],
+    //       // primary: "blue",
+    //       secondary: "#289DF2",
+    //     },
+    //   },
+    // ],
   },
 
 }

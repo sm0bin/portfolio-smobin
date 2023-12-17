@@ -1,5 +1,5 @@
 import { IoMdCloudDownload } from "react-icons/io";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
