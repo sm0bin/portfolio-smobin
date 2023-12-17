@@ -6,22 +6,22 @@ const Projects = () => {
         {
             name: "Tourist Guide",
             github: "https://github.com/sm0bin/tourist-guide",
-            website: "tourist-guide-sm.web.app",
+            website: "https://tourist-guide-sm.web.app",
         },
         {
             name: "Tuition Master",
             github: "https://github.com/sm0bin/tuition-master",
-            website: "tuition-master-sm.web.app",
+            website: "https://tuition-master-sm.web.app",
         },
         {
             name: "Quality Cravings",
             github: "https://github.com/sm0bin/quality-cravings",
-            website: "brandshop-2e126.web.app"
+            website: "https://brandshop-2e126.web.app"
         },
         {
             name: "Corpfest",
             github: "https://github.com/sm0bin/corpfest",
-            website: "corpfest-d370d.web.app",
+            website: "https://corpfest-d370d.web.app",
         }
     ];
 
@@ -37,8 +37,8 @@ const Projects = () => {
                             <div className="card-body ">
                                 <h2 className="font-bold text-2xl text-center mb-3">{project.name}</h2>
                                 <div className="grid grid-cols-2 gap-4">
-                                    <Link to={project.github} className="btn btn-secondary btn-outline">Github </Link>
-                                    <Link to={project.website} className="btn btn-secondary">Website </Link>
+                                    <Link to={project.github} target="_blank" className="btn btn-secondary btn-outline">Github </Link>
+                                    <Link to={project.website} target="_blank" className="btn btn-secondary">Website </Link>
                                 </div>
                             </div>
                         </div>
