@@ -53,18 +53,18 @@ const Footer = () => {
                     </nav>
                 </aside>
                 <nav>
-                    <header className="footer-title">Services</header>
-                    <a className="link link-hover">Graphic Design</a>
-                    <a className="link link-hover">UI/UX Design</a>
-                    <a className="link link-hover">Frontend Development</a>
+                    <header className="font-head text-secondary mb-2 text-xl">Services</header>
                     <a className="link link-hover">Full Stack Development</a>
+                    <a className="link link-hover">Frontend Development</a>
+                    <a className="link link-hover">UI/UX Design</a>
+                    <a className="link link-hover">Graphic Design</a>
                 </nav>
                 <nav>
-                    <header className="footer-title">Quick Links</header>
+                    <header className="font-head text-secondary mb-2 text-xl">Quick Links</header>
                     {navLinks}
                 </nav>
                 <nav>
-                    <header className="footer-title">Legal</header>
+                    <header className="font-head text-secondary mb-2 text-xl">Legal</header>
                     <a className="link link-hover">Terms of use</a>
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
