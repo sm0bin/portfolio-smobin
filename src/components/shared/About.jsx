@@ -1,4 +1,4 @@
-import image from '../../assets/img/mobin-long.jpg';
+import image from '../../assets/images/mobin-long.jpg';
 import { IoMdCloudDownload } from 'react-icons/io';
 import { PiPaperPlaneRightFill } from 'react-icons/pi';
 import Points from './Points';
