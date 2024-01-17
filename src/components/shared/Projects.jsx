@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 import touristGuideImage from "../../assets/images/Tourist-Guide.png";
 import tuitionMasterImage from "../../assets/images/Tuition-Master.png";
 import qualityCravingImage from "../../assets/images/Quality-Craving.png";
+import corpfestImage from "../../assets/images/Corpfest.png";
 
 const Projects = () => {
     const projectList = [
@@ -22,11 +23,11 @@ const Projects = () => {
             name: "Quality Cravings",
             thumbnail: qualityCravingImage,
             code: "https://github.com/sm0bin/quality-cravings",
-            website: "https://brandshop-2e126.web.app"
+            website: "https://quality-cravings.web.app"
         },
         {
             name: "Corpfest",
-            thumbnail: qualityCravingImage,
+            thumbnail: corpfestImage,
             code: "https://github.com/sm0bin/corpfest",
             website: "https://corpfest-d370d.web.app",
         }
