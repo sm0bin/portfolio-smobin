@@ -53,7 +53,7 @@ const Contact = () => {
                         <Points icon={IoMdMail} field='Email' value='shehjad0mobin@gmail.com' />
                         <Points icon={PiPhoneFill} field='Phone' value='+88 016 22588 235' />
                         <Points icon={IoLogoWhatsapp} field='Whatsapp' value='+88 017 3298 5103' />
-                        <Points icon={PiMapPinFill} field='Location' value='Rajshahi, Bangladesh' />
+                        <Points icon={PiMapPinFill} field='Location' value='Brahmanbaria, Bangladesh' />
                     </div>
                 </div>
             </div>
