@@ -6,7 +6,7 @@ import { toast } from "react-hot-toast";
 
 const Contact = () => {
     return (
-        <section id="contact">
+        <section id="contact" className="max-w-7xl mx-4 md:mx-8 lg:mx-auto">
             <SectionTitle title='I WANT TO HEAR FROM YOU' subTitle="Contact Me"></SectionTitle>
 
             <div className="hero">

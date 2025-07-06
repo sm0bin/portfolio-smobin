@@ -34,7 +34,7 @@ const Projects = () => {
     ];
 
     return (
-        <section id="projects">
+        <section id="projects" className="max-w-7xl mx-4 md:mx-8 lg:mx-auto">
             <SectionTitle title='My Projects' subTitle="Projects"></SectionTitle>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

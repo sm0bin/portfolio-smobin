@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
-        <div className='flex flex-col md:flex-row gap-12 items-center justify-between' id='hero'>
+        <div className='max-w-7xl mx-4 md:mx-8 lg:mx-auto flex flex-col md:flex-row gap-12 items-center justify-between' id='hero'>
             <div className='max-w-xl'>
                 <h1 className='font-head text-6xl leading-tight'>Hello,<br /> I am <span className='text-secondary font-head'>Shehjad Mobin</span></h1>
                 <h2 className='font-semibold text-3xl'>Full Stack Web Developer</h2>

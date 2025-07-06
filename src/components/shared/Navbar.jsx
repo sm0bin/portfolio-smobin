@@ -38,9 +38,16 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-head text-secondary">
+                <Link
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    to="hero"
+                    className="text-lg md:text-3xl font-head text-secondary">
                     {/* <img src="/sm-frame-alt.svg" alt="Shehjad Mobin Icon" /> */}
-                    Shehjad Mobin</a>
+                    Shehjad Mobin</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -48,7 +55,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="/Shehjad-Mobin-Resume.pdf" className="btn btn-secondary" download>Resume <IoMdCloudDownload className="text-2xl" /></a>
+                <a href="/Shehjad-Mobin-Resume.pdf" className="btn btn-sm btn-secondary" download>Resume <IoMdCloudDownload className="text-2xl" /></a>
             </div>
         </div>
     );
