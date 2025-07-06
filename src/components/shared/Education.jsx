@@ -30,7 +30,7 @@ const Education = () => {
 
 
     return (
-        <section id="education">
+        <section id="education" className="max-w-7xl mx-4 md:mx-8 lg:mx-auto">
             <SectionTitle title='My Education' subTitle="Education"></SectionTitle>
 
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
