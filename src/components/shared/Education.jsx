@@ -6,13 +6,13 @@ const Education = () => {
             "level": "M. Engineering",
             "school": "Information and Communication Engineering",
             "board": "University of Rajshahi",
-            "year": "2021 - Present"
+            "year": "2024 - 2025"
         },
         {
             "level": "B.Sc. Engineering",
             "school": "Information and Communication Engineering",
             "board": "University of Rajshahi",
-            "year": "2017 - 2021"
+            "year": "2017 - 2024"
         },
         {
             "level": "HSC",
