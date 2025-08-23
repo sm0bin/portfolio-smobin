@@ -6,8 +6,9 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import { Toaster } from "react-hot-toast";
+import Projects from "./pages/projects/Projects";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <h1>Contact</h1>,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
     ]
   },

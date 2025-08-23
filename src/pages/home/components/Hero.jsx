@@ -1,6 +1,6 @@
 import { IoMdCloudDownload } from 'react-icons/io';
 import { PiPaperPlaneRightFill } from 'react-icons/pi';
-import heroImg from '../../assets/pc.svg';
+import heroImg from '../../../assets/pc.svg';
 import { Link } from 'react-scroll';
 
 const Hero = () => {

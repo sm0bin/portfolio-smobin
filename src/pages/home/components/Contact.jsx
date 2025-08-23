@@ -1,6 +1,6 @@
 import { PiPaperPlaneTiltFill, PiMapPinFill, PiPhoneFill } from "react-icons/pi";
 import { IoMdMail, IoLogoWhatsapp } from "react-icons/io";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../../../components/SectionTitle";
 import Points from "./Points";
 import { toast } from "react-hot-toast";
 
